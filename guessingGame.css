@@ -1,0 +1,9 @@
+fieldset {
+    text-align: center;
+    background: #CACF85;
+    border: dashed #8CBA80 thick;
+}
+html {
+    background: #BE6E46;
+    font-family: "Papyrus", sans-serif;
+}

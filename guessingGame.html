@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="guessingGame.css">
+    <script src="gameGuessing.js"></script>
+</head>
+<body>
+    <fieldset>
+        <h1>Javascript</h1>
+        <p>I am thinking of one of these colors:
+        <br>
+        <br>
+        blue, cyan, gold, gray, magenta, orange, red, white, yellow
+        <br>
+        <br>
+        What color am I thinking of?</p>
+        <select id="submission">
+            <option value="blue">Blue</option>
+            <option value="cyan">Cyan</option>
+            <option value="gold">Gold</option>
+            <option value="gray">Gray</option>
+            <option value="magenta">Magenta</option>
+            <option value="orange">Orange</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        <input type="button"
+               id="submitButton"
+                value="guess this"
+                onclick="generateRandom()"
+               >
+    </fieldset>
+</body>
+</html>
