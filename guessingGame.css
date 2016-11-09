@@ -7,3 +7,9 @@ html {
     background: #BE6E46;
     font-family: "Papyrus", sans-serif;
 }
+div {
+    text-align: center;
+    font-size: 90px;
+    height: 500px;
+    width: 100%;
+}
