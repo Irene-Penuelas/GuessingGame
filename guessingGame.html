@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="theHtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="guessingGame.css">
     <script src="gameGuessing.js"></script>
 </head>
-<body>
+<body id="theBody">
     <fieldset>
         <h1>Javascript</h1>
         <p>I am thinking of one of these colors:
@@ -33,5 +33,8 @@
                 onclick="generateRandom()"
                >
     </fieldset>
+    <div id="results">
+        <audio loop autoplay id="music"></audio>
+    </div>
 </body>
 </html>
